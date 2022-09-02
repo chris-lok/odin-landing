@@ -1,2 +1,2 @@
 # odin-landing
-Odin Project: Landing Page
+Simple webpage using CSS flexboxes for layout
