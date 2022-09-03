@@ -40,8 +40,7 @@ a:visited {
     justify-content: center;
     align-items: center;
     gap: 5%;
-
-    /* padding: 50px 200px; */
+    padding: 50px 0;
 }
 
 .intro-header {
@@ -80,4 +79,36 @@ button {
     color: white;
     font-size: 18px;
     font-weight: bold;
+}
+
+.info-cards h2 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+}
+
+.card p {
+    text-align: center;
+    color: #5d5d5d;
+    font-size: 18px;;
 }
